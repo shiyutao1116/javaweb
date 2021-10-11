@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        function onblurf() {
+            console.log("静态失去焦点");
+        }
+        window.onload=function () {
+            var v=document.getElementById("11")
+            v.onblur=function () {
+
+console.log("dongtai ")
+            }
+
+
+        }
+        
+    </script>
+</head>
+<body>
+用户名<input type="text" onblur="onblurf()"><br/>
+密码<input type="password" id="11">
+</body>
+</html>

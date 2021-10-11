@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        function onclick1() {
+            alert("静态 onclick");
+        }
+window.onload=function () {
+           var btnobj=document.getElementById("1001")
+btnobj.onclick=function () {
+               alert("dongtai");
+
+
+
+}
+
+
+}
+
+    </script>
+
+</head>
+<body>
+<button onclick="onclick1();">按钮1</button>
+<button id="1001">2</button>
+</body>
+</html>

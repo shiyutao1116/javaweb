@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--   <input type="file" />把一个文件提交到后台   -->
+</head>
+<body>
+<form action="http://www.baidu.com" method="post">
+    <input type="hidden" value="abc" name="侍宇韬">
+    <h1 align="center">用户注册</h1>
+<table align="center">
+    <tr>
+        <td>用户名称</td>
+        <td><input type="text" value="默认值" name="name"></td>
+    </tr>
+    <tr>
+        <td>用户密码</td>
+
+        <td><input type="password" name="password"></td>
+    </tr>
+    <tr>
+
+        <td>确认密码</td>
+        <td><input type="password" name="exturllypassword"></td>
+    </tr>
+    <tr>
+        <td>性别</td>
+
+        <td><input type="radio" name="sex" checked="checked" value="boy"/>男<input type="radio" name="sex" value="girl"/>女</td>
+    </tr>
+    <tr>
+        <td>兴趣爱好</td>
+        <td> <input type="checkbox" name="hobby" value="java"/>java<input type="checkbox" name="hobby" value="js"/>js<input type="checkbox" name="hobby" value="c++"/>c++<input type="checkbox" name="hobby" value="c"/>c</td>
+    </tr>
+    <tr>
+        <td>国籍</td>
+        <td>
+            <select name="country">
+            <option>请选择国籍</option>
+            <option selected="selected" value="chinese">中国</option>
+            <option value="usa">美国</option>
+            <option value="us">英国</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td> 自我评价</td>
+        <td><textarea rows="10" cols="20" name="desc">纯纯的废物</textarea></td>
+    </tr>
+    <tr>
+        <td> <input type="reset" value="重置按钮" /></td>
+        <td><input type="submit" value="提交按钮" /></td>
+    </tr>
+
+</table>
+</form>
+</body>
+</html>

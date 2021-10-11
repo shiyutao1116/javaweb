@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+function onclickf() {
+    var a1=document.getElementById("101");
+     var a2=a1.value;
+     var a4=document.getElementById("span1");
+     var patt=/^\w{5,12}$/;
+     if(patt.test(a2)){
+
+         a4.innerHTML="用户名合法";
+     }
+     else
+     {
+         a4.innerHTML="用户名不合法";
+     }
+
+}
+
+
+    </script>
+
+</head>
+<body>
+用户名<input type="test" id="101"><span id="span1" style="color: red;"></span>
+<button onclick="onclickf()">校验</button>
+
+</body>
+</html>
